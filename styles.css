@@ -85,7 +85,7 @@ input {
 	border-radius: 30px;
 	font-size: 18px;
 	outline: none;
-	margin-right: -40px;
+	margin-right: -80px;
 	padding: 20px;
 	padding-left: 24px;
 	width: 40%;
@@ -94,11 +94,15 @@ input {
 	font-size: 16px;
 	color: var(--desaturated-red);
 }
+.btn-and-error-img {
+	display: flex;
+}
+.form-error-img img {
+	margin-left: -30px;
+	margin-top: 17px;
+}
 .form-error-img {
-	position: absolute;
 	height: 24px;
-	left: 450px;
-	top: 18px;
 	width: 24px;
 }
 #submit {
